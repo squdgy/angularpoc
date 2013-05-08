@@ -1,0 +1,38 @@
+<div>
+  <div class="container">
+    <div class="left">
+      <table class="contestgrid">
+        <thead>
+        <tr>
+            <td>Contest Id</td>
+            <td>Name</td>
+            <td>Sport</td>
+            <td>Points</td>
+            <td>Start Date</td>
+            <td>Avatar</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr data-ng-repeat="contest in contests | orderBy:orderProp">
+                <td>{{contest.contestId}}</td>
+                <td>{{contest.name}}</td>
+                <td>{{sports[contest.sportId]}}</td>
+                <td>{{contest.points}}</td>
+                <td>{{contest.startDate}}</td>
+                <td><img ng-src="{{contest.avatarSrc}}"/></td>
+                <td><button><a href="#/contests/{{contest.contestId}}">Edit</a></button></td>
+                <td><button data-ng-click="deleteContest(contest)">Delete</button></td>
+            </tr>
+        </tbody>
+      </table>
+      <div data-ng-include="'partials/contest-form.html'"></div>    
+    </div>
+  
+    <div data-ng-switch="contest.contestId > 0" class="right">
+      <div data-ng-switch-when="true" data-ng-include="'partials/contest-detail.html'">
+    </div>
+    <div class"clear"></div>    
+
+</div>

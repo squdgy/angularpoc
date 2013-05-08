@@ -1,0 +1,9 @@
+<div data-ng-controller="FormCtrl" class="left cform">
+    <form>
+        <div><span>Name:</span><input type="text" data-ng-model="cform.name" /></div>
+        <div><span>Points:</span><input type="text" data-ng-model="cform.points"/></div>
+        <div><span>Sport:</span>
+        <select data-ng-options="key as value for (key, value) in sports" data-ng-model="cform.sportId"></select></div>
+        <div><button data-ng-click="reset()">Clear</button><button data-ng-click="add(cform)">Add</button></div>   
+    </form>
+</div>

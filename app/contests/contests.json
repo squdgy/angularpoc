@@ -1,0 +1,5 @@
+[
+{"contestId": 123, "name": "Blake’s Contest", "sportId": 1, "points": 100, "startDate": "2013-02-01", "avatarSrc": "https://secure.gravatar.com/avatar/bd6906f07215cf58eb4273940ffd5d1f?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F388783eb49d4%2Fimg%2Fdefault_avatar%2F32%2Fuser_blue.png&s=32"},
+{"contestId": 345, "name": "Jays’s Contest", "sportId": 2, "points": 200, "startDate": "2013-03-01", "avatarSrc": "https://secure.gravatar.com/avatar/8840bdc83689409daeeb2348f47db8ef?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F388783eb49d4%2Fimg%2Fdefault_avatar%2F32%2Fuser_blue.png&s=32"},
+{"contestId": 546, "name": "Maura’s Contest", "sportId": 3, "points": 300, "startDate": "2013-04-01", "avatarSrc": "https://secure.gravatar.com/avatar/4d397fa39ce61f62eee8266b8d58f96c?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F388783eb49d4%2Fimg%2Fdefault_avatar%2F32%2Fuser_blue.png&s=32"}
+]
